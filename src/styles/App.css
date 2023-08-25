@@ -1,0 +1,253 @@
+body, html {
+    margin: 0;
+    border: 0;
+    scroll-snap-type: y mandatory;
+    font-family: 'ABeeZee';
+  }
+
+  .container{
+    height: 100vh;
+    position: relative;
+    width: 100%;
+  }
+    .container section{
+      height: 100%;
+      scroll-snap-align: start;
+      display: flex;
+      justify-content: center;
+    }
+
+    @media screen and (max-width: 900px) {
+      body{
+        scroll-snap-type: unset;
+      }
+      .container {
+        position: static;
+      }
+      .container section{
+        scroll-snap-align:unset;
+        height:max-content;
+        padding:40px;
+      }
+    }
+
+
+  #back{
+    background-image: url('../../public/back.jpg');
+    background-position:center;
+    background-size:cover;
+    z-index: -1;
+    position: fixed;
+    width:100%;
+    height:100%;
+ }
+
+ #head{
+  background-color:black;
+  opacity: 0.5;
+  max-width: 100vw;
+  height: 100%;
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+}
+
+#HomePage{
+  color:white;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height:50vh;
+  margin:auto;
+}
+  
+#about{
+  max-width: 100vw;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#AboutPage img{
+  border-radius: 50%;
+  width:130px;
+  height:150px;
+}
+
+#AboutPage{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: space-between;
+  max-height:90vh;
+}
+
+#AboutPage #box{
+  background-color: rgb(237, 237, 237);
+  padding: 20px;
+}
+
+p{
+  text-align: center;
+  font-size: larger;
+}
+
+#pass{  
+  background-color: rgb(237, 237, 237);
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  max-width:100vw;
+  padding: 30px;
+}
+
+#PassPage{
+  display: flex;
+  align-items:center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  min-height: 75vh;
+}
+
+#PassPage #box{
+  display: flex;
+  width:inherit;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#PassPage #box #each{
+  padding:5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 380px;
+  min-width: 300px;
+  padding:10px;
+}
+
+#pass #circle{
+  width:170px;
+  height: 170px;
+  border-radius: 50%;
+  background-color: cornflowerblue;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+#exper{
+  background-color: white;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+}
+#ExperPage{
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  height: 70%;
+  flex-wrap: wrap;
+  width:100%
+}
+#skills{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 10px;
+  max-width: 700px;
+}
+#skill{
+  max-width: 100px;
+  max-height: 100px;
+  padding: 5px;
+  filter: grayscale();
+  transition: 0.5s ease-out;
+}
+#skill:hover{
+  filter: none;
+}
+
+#resDown{
+  max-width:500px;
+  padding:10px;
+}
+
+#work{
+  background-color: rgb(237, 237, 237);
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+}
+#WorkPage{
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 70%;
+}
+#job{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+#job img{
+  width:100%;
+  max-height:300px;
+  border-radius: 20px;
+}
+
+#job #imge{
+  padding:10px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 5px 5px 10px 2px  rgb(60, 60, 60) inset;
+  min-width: 350px;
+  max-width: 500px;
+}
+
+#job #desc{
+  max-width: 450px;
+  padding:2 0px;
+
+}
+
+#contact{
+  max-height:70%;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 0;
+  overflow-x: hidden;
+}
+#contact #last{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 60vh;
+  padding:20px;
+}
+
+#contact #footer
+{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  color:white;
+  min-height: 30vh;
+  padding:20px;
+  min-width:100%;
+} 
