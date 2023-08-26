@@ -1,8 +1,12 @@
 import React from 'react'
 import NearMeIcon from '@mui/icons-material/NearMe';
-import { Button, Typography } from '@mui/material';
+import { Button, Link, Typography } from '@mui/material';
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import MailIcon from '@mui/icons-material/Mail';
+import GitHubIcon from '@mui/icons-material/GitHub';
 function Contact() {
   return (<>
   <div id='last'>
@@ -17,22 +21,20 @@ function Contact() {
             <FacebookIcon></FacebookIcon>
         </Button>
         <Button varient='contained' color='primary' sx={{backgroundColor:'#444444',minWidth:'50px',minHeight:'50px',borderRadius:'0',margin:'5px'}}>
-            <FacebookIcon></FacebookIcon>
+            <InstagramIcon></InstagramIcon>
         </Button>
         <Button varient='contained' color='primary' sx={{backgroundColor:'#444444',minWidth:'50px',minHeight:'50px',borderRadius:'0',margin:'5px'}}>
-            <FacebookIcon></FacebookIcon>
+            <LinkedInIcon></LinkedInIcon>
         </Button>
         <Button varient='contained' color='primary' sx={{backgroundColor:'#444444',minWidth:'50px',minHeight:'50px',borderRadius:'0',margin:'5px'}}>
-            <FacebookIcon></FacebookIcon>
+            <MailIcon></MailIcon>
         </Button>
         <Button varient='contained' color='primary' sx={{backgroundColor:'#444444',minWidth:'50px',minHeight:'50px',borderRadius:'0',margin:'5px'}}>
-            <FacebookIcon></FacebookIcon>
+            <GitHubIcon></GitHubIcon>
         </Button>
-        <Button varient='contained' color='primary' sx={{backgroundColor:'#444444',minWidth:'50px',minHeight:'50px',borderRadius:'0',margin:'5px'}}>
-            <FacebookIcon></FacebookIcon>
-        </Button>
-    </div>
+    </div><Link href="#head" underline="none">
     <RocketLaunchIcon sx={{transform:'rotate(-45deg)',fontSize:'2.5rem'}}></RocketLaunchIcon>
+    </Link>
   </div>
   </>
   )
