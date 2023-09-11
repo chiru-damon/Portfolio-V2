@@ -19,19 +19,19 @@ function Contact() {
   </div>
   <div id="footer">
     <div id='links'>
-       <a href="https://www.facebook.com/bomma.chiranjeevi?mibextid=ZbWKwL" ><Button varient='contained' color='primary' sx={{backgroundColor:'#444444',minWidth:'50px',minHeight:'50px',borderRadius:'0',margin:'5px'}}>
+       <a href="https://www.facebook.com/bomma.chiranjeevi?mibextid=ZbWKwL" target='_blank'><Button varient='contained' color='primary' sx={{backgroundColor:'#444444',minWidth:'50px',minHeight:'50px',borderRadius:'0',margin:'5px'}}>
             <FacebookIcon></FacebookIcon>
         </Button></a> 
-       <a href="https://instagram.com/bomma_chiranjeevi?igshid=NzZhOTFlYzFmZQ==" ><Button varient='contained' color='primary' sx={{backgroundColor:'#444444',minWidth:'50px',minHeight:'50px',borderRadius:'0',margin:'5px'}}>
+       <a href="https://instagram.com/bomma_chiranjeevi?igshid=NzZhOTFlYzFmZQ==" target='_blank'><Button varient='contained' color='primary' sx={{backgroundColor:'#444444',minWidth:'50px',minHeight:'50px',borderRadius:'0',margin:'5px'}}>
             <InstagramIcon></InstagramIcon>
         </Button></a>
-       <a href="https://www.linkedin.com/in/chiranjeevi-bomma-36a401235" > <Button varient='contained' color='primary' sx={{backgroundColor:'#444444',minWidth:'50px',minHeight:'50px',borderRadius:'0',margin:'5px'}}>
+       <a href="https://www.linkedin.com/in/chiranjeevi-bomma-36a401235" target='_blank'> <Button varient='contained' color='primary' sx={{backgroundColor:'#444444',minWidth:'50px',minHeight:'50px',borderRadius:'0',margin:'5px'}}>
             <LinkedInIcon></LinkedInIcon>
         </Button></a>
-       <a href="mailto:bomma.chiru@gmail.com" ><Button varient='contained' color='primary' sx={{backgroundColor:'#444444',minWidth:'50px',minHeight:'50px',borderRadius:'0',margin:'5px'}}>
+       <a href="mailto:bomma.chiru@gmail.com" target='_blank'><Button varient='contained' color='primary' sx={{backgroundColor:'#444444',minWidth:'50px',minHeight:'50px',borderRadius:'0',margin:'5px'}}>
             <MailIcon></MailIcon>
         </Button></a>
-       <a href="https://github.com/chiru-damon/" > <Button varient='contained' color='primary' sx={{backgroundColor:'#444444',minWidth:'50px',minHeight:'50px',borderRadius:'0',margin:'5px'}}>
+       <a href="https://github.com/chiru-damon/" target='_blank'> <Button varient='contained' color='primary' sx={{backgroundColor:'#444444',minWidth:'50px',minHeight:'50px',borderRadius:'0',margin:'5px'}}>
             <GitHubIcon></GitHubIcon>
         </Button></a>
     </div><Link href="#head" underline="none">
