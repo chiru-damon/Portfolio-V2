@@ -10,12 +10,12 @@ function About() {
       <div id="AboutPage">
         <Typography variant='h5'>A LITTLE BIT ABOUT ME</Typography>
         <img src={me}></img>
-        <p> Hey! My name is Brittany and I'm a web developer with a passion for front end development and design. I'm currently a third year student at Northeastern University pursuing a degree in information science with a minor in interaction design. I aspire toward a career that will allow me to channel my creativity through crafting beautiful software and engaging experiences.
+        <p> Hey! My name is Chiranjeevi and I'm a web developer with a passion for fullstack development. I'm currently a final year student at Kkr & Ksr Institute of Technology and Scieces pursuing a Bachelor degree in Computer Sceince and Engineering. I aspire toward a career that will allow me to channel my creativity through crafting beautiful software and engaging experiences.
         </p>
-        <Typography variant='body2'>When I'm not on the computer, I enjoy snowboarding, swimming, and petting dogs.</Typography>
-        <div id="box">
-            <h1>TL;DR?  SELF PROCLAMATIONS:</h1>
-             <div style={{display:'flex',justifyContent:'space-between'}}>
+        <Typography variant='body2'>When I'm not on the computer, I enjoy exercise, painting and petting cats.</Typography>
+        {/* <div id="box">
+            <h3>TL;DR?  SELF PROCLAMATIONS:</h3>
+             <div style={{display:'flex',justifyContent:'space-evenly'}}>
               <div><KeyboardIcon sx={{width:'100px',height:'50px'}}></KeyboardIcon>
                 <p>Web developer</p></div>
                 <div><TerminalIcon sx={{width:'100px',height:'50px'}}></TerminalIcon>
@@ -23,7 +23,7 @@ function About() {
                 <div><KeyboardIcon sx={{width:'100px',height:'50px'}}></KeyboardIcon>
                 <p>Web developer</p></div>
              </div>
-        </div>
+        </div> */}
       </div>
     </Box>
   )

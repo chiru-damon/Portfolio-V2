@@ -1,4 +1,4 @@
-import { Typography } from '@mui/material'
+import { Link, Typography } from '@mui/material'
 import React from 'react'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
@@ -9,7 +9,9 @@ function Home() {
       <Typography variant='h3'>HI, I'M CHIRANJEEVI</Typography>
       <Typography variant='body2'>Web Developer & Programmer</Typography>
       </div>
+      <Link href="#about" underline="none">
       <KeyboardArrowDownIcon  sx={{width:'50px',height:'50px'}}></KeyboardArrowDownIcon>
+      </Link>
     </div>
     
   )

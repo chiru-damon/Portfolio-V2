@@ -11,6 +11,7 @@ import node from '../picture/node.png'
 import python from '../picture/python.png'
 import react from '../picture/react.png'
 import wshark from '../picture/wireshark.png'
+import Resume from '../picture/BommaChiranjeevi_20JR1A0539.pdf'
 
 function Experiance() {
   return (
@@ -35,8 +36,10 @@ function Experiance() {
         </div>
         <div id ='resDown' align='center'>
           <Typography variant='h4'>Check out my Resume</Typography>
-          <br></br>
+          <br></br><a href={Resume} download="Chiranjeevi_Bomma" target='_blank'>
           <Button variant='contained' color='secondary'>Grab A Copy</Button>
+</a>
+        
         </div>
     </div>
     </>
