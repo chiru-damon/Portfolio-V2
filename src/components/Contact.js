@@ -22,18 +22,18 @@ function Contact() {
        <a href="https://www.facebook.com/bomma.chiranjeevi?mibextid=ZbWKwL" ><Button varient='contained' color='primary' sx={{backgroundColor:'#444444',minWidth:'50px',minHeight:'50px',borderRadius:'0',margin:'5px'}}>
             <FacebookIcon></FacebookIcon>
         </Button></a> 
-       <a href="https://instagram.com/bomma_chiranjeevi?igshid=NzZhOTFlYzFmZQ==" ></a> <Button varient='contained' color='primary' sx={{backgroundColor:'#444444',minWidth:'50px',minHeight:'50px',borderRadius:'0',margin:'5px'}}>
+       <a href="https://instagram.com/bomma_chiranjeevi?igshid=NzZhOTFlYzFmZQ==" ><Button varient='contained' color='primary' sx={{backgroundColor:'#444444',minWidth:'50px',minHeight:'50px',borderRadius:'0',margin:'5px'}}>
             <InstagramIcon></InstagramIcon>
-        </Button>
-       <a href="https://www.linkedin.com/in/chiranjeevi-bomma-36a401235" ></a> <Button varient='contained' color='primary' sx={{backgroundColor:'#444444',minWidth:'50px',minHeight:'50px',borderRadius:'0',margin:'5px'}}>
+        </Button></a>
+       <a href="https://www.linkedin.com/in/chiranjeevi-bomma-36a401235" > <Button varient='contained' color='primary' sx={{backgroundColor:'#444444',minWidth:'50px',minHeight:'50px',borderRadius:'0',margin:'5px'}}>
             <LinkedInIcon></LinkedInIcon>
-        </Button>
-       <a href="mailto:bomma.chiru@gmail.com" ></a> <Button varient='contained' color='primary' sx={{backgroundColor:'#444444',minWidth:'50px',minHeight:'50px',borderRadius:'0',margin:'5px'}}>
+        </Button></a>
+       <a href="mailto:bomma.chiru@gmail.com" ><Button varient='contained' color='primary' sx={{backgroundColor:'#444444',minWidth:'50px',minHeight:'50px',borderRadius:'0',margin:'5px'}}>
             <MailIcon></MailIcon>
-        </Button>
-       <a href="https://github.com/chiru-damon/" ></a> <Button varient='contained' color='primary' sx={{backgroundColor:'#444444',minWidth:'50px',minHeight:'50px',borderRadius:'0',margin:'5px'}}>
+        </Button></a>
+       <a href="https://github.com/chiru-damon/" > <Button varient='contained' color='primary' sx={{backgroundColor:'#444444',minWidth:'50px',minHeight:'50px',borderRadius:'0',margin:'5px'}}>
             <GitHubIcon></GitHubIcon>
-        </Button>
+        </Button></a>
     </div><Link href="#head" underline="none">
     <RocketLaunchIcon sx={{transform:'rotate(-45deg)',fontSize:'2.5rem'}}></RocketLaunchIcon>
     </Link>
